@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(141, 141, 180);
+    background-color: rgb(81, 81, 200);
 }
 
 h1{
@@ -11,23 +11,43 @@ h1{
 nav{
     display: flex;
     flex-direction: row;
-    background-color: rgb(224, 209, 209);
+    background-color: rgb(241, 223, 223);
     padding: 15px;
+    padding-left: 100px;
+    padding-right: 100px;
+    margin-inline: -100px;
+    margin-top: -10px;
     justify-content: space-around;
 }
-img{
-    height: 600px;
+#Me{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    height: 400px;
     width: 800px;
+
+}
+.text{
+    display: flex;
+    flex-direction: column-reverse;
+}
+#cato{
+    width: 400px;
+}
+#insta{
+    height: 40px;
+    width: 40px;
 }
 #home{
     display: flex;
     background-color: rgb(192, 192, 69);
     flex-direction: column-reverse;
+    margin-inline: -50px;
 }
 #about{
     display: flex;
-    align-items: center;
-    flex-direction: column;
+    /* align-items: center;
+    flex-direction: column; */
     color: white;
     margin: 100px;
     font-family: Arial, Helvetica, sans-serif;
@@ -47,7 +67,7 @@ img{
     align-items: center;
     flex-direction: column;
     color:white;
-    font-size: 40px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
 }
 #contact{
