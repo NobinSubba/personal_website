@@ -45,9 +45,7 @@ nav{
     margin-inline: -50px;
 }
 #about{
-    display: flex;
-    /* align-items: center;
-    flex-direction: column; */
+     display: flex;
     color: white;
     margin: 100px;
     font-family: Arial, Helvetica, sans-serif;
